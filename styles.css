@@ -453,6 +453,10 @@ header .fa-bars {
     padding: 100px 40px 0;
 }
 
+.about-container a {
+    color: #000;
+}
+
 .about-container h3,
 .about-container p,
 .social-icons {
