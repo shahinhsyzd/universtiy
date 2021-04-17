@@ -871,18 +871,17 @@ header .fa-bars {
     outline: none;
 }
 
-.comment form input:valid {
+form input:valid {
     border: 1px solid lime;
 }
 
-.comment form textarea {
+form textarea {
     resize: none;
 }
 
-.comment form textarea:valid {
+form textarea:valid {
     border: 1px solid lime;
 }
-
 
 .comment form button {
     margin-top: 10px;
