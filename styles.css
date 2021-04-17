@@ -236,12 +236,9 @@ header .fa-bars {
 /* THIRD SECTION CAMPUS */
 .campus {
     text-align: center;
-    width: 100%;
+    width: 80%;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin: auto;
 }
 
 .image-box {
@@ -312,20 +309,16 @@ header .fa-bars {
 /* FOURTH SECTION FACILITIES */
 .facilities {
     text-align: center;
-    width: 100%;
+    width: 80%;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 60px 20px;
+    margin: auto;
 }
 
 .facility-flex {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .facility-box {
@@ -335,7 +328,7 @@ header .fa-bars {
 }
 
 .img-facility {
-    width: 350px;
+    width: 100%;
     height: 300px;
     position: relative;
     border-radius: 1rem;
@@ -509,6 +502,11 @@ header .fa-bars {
 
 @media (max-width: 700px) {
 
+    /* SCROLL */
+    .scroll-arrow {
+        display: none;
+    }
+
     /* HOME PAGE */
     .main-icon-name .name h1 {
         font-size: 1.4rem;
@@ -540,6 +538,10 @@ header .fa-bars {
         font-size: 1rem;
         font-weight: 600;
         letter-spacing: 1.8px;
+    }
+
+    header nav ul li:hover::after {
+        width: 0;
     }
 
     header nav .fas {
@@ -597,6 +599,11 @@ header .fa-bars {
         line-height: 1.6rem;
     }
 
+    /* CAMPUS SECTION */
+    .campus {
+        width: 90%;
+    }
+
     /* REVIEW SECTION */
     .reviews {
         width: 90%;
@@ -607,9 +614,17 @@ header .fa-bars {
     }
 
     /* -------------------------------------------------------------------- */
-    /* SECTION 4 */
+    /* SECTION 4 FACILITIES */
     .facility-box {
         text-align: center;
+    }
+
+    .facility-flex {
+        flex-wrap: wrap;
+    }
+
+    .facilities {
+        width: 90%;
     }
 
     /* CONTACT SECTION */
@@ -725,6 +740,7 @@ header .fa-bars {
 
 .address-text div {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .address-text div i {
