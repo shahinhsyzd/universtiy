@@ -18,9 +18,6 @@
     font-family: 'Raleway',
         sans-serif;
     overflow-x: hidden !important;
-    /* background: #000 !important;
-    color: #0f0 !important;
-    outline: solid #f00 1px !important; */
 }
 
 html {
@@ -36,6 +33,27 @@ body a {
     position: fixed;
     width: 100%;
     height: 100%;
+}
+
+/* SCROLL BAR */
+::-webkit-scrollbar {
+    width: 12px;
+    background: rgb(44, 44, 44);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(59, 59, 71);
+    border-radius: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 /* --------------------------------------------------- */
